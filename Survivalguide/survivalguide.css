@@ -311,6 +311,36 @@ header.scrolled .navbar {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
+.tallinn {
+    display: inline-block; /* Teeb tekstilingist nupu kujulise ploki */
+    background-color: rgba(126, 49, 5, 0.8); /* Sinu lehe teemaga sobiv värv */
+    color: #ffffff;
+    text-decoration: none; /* Eemaldab lingi allakriipsutuse */
+    padding: 12px 25px; /* Tekitab teksti ümber ruumi (üleval/all 12px, külgedel 25px) */
+    font-size: 16px;
+    font-family: Arial, sans-serif !important; /* Võid muuta ka 'Shadows Into Light', cursive peale */
+    font-weight: bold;
+    border-radius: 8px; /* Ümarad nurgad */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Õrn vari nupu alla ruumilisuse jaoks */
+    
+    /* Sujuv üleminek, kui hiirega peale minna */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* NUPU EFEKT HIIREGA PEALE MINNES */
+.tallinn:hover {
+    background-color: rgba(163, 71, 18, 0.9); /* Muudab värvi veidi heledamaks/erksamaks */
+    transform: translateY(-2px); /* Tõstab nuppu visuaalselt 2 pikslit ülespoole */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Suurendab varju, rõhutades tõusmist */
+    text-decoration: none; 
+}
+
+/* NUPU EFEKT KLIKKIMISE HETKEL */
+.tallinn:active {
+    transform: translateY(0); /* Vajutades vajub nupp tagasi alla */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Vari muutub väiksemaks */
+}
+
 /* IMAGE SECTION (parallax style) */
 .image-section {
     height: 900px;
