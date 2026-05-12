@@ -311,6 +311,12 @@ header.scrolled .navbar {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
+.tallinn-link {
+    padding-top: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
 .tallinn {
     display: inline-block; /* Teeb tekstilingist nupu kujulise ploki */
     background-color: rgba(126, 49, 5, 0.8); /* Sinu lehe teemaga sobiv värv */
