@@ -322,6 +322,8 @@ header.scrolled .navbar {
     font-weight: bold;
     border-radius: 8px; /* Ümarad nurgad */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Õrn vari nupu alla ruumilisuse jaoks */
+    justify-content: center;
+    align-items: center;
     
     /* Sujuv üleminek, kui hiirega peale minna */
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
