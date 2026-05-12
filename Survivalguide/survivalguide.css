@@ -318,7 +318,9 @@ header.scrolled .navbar {
 }
 
 .tallinn {
-    display: inline-block; /* Teeb tekstilingist nupu kujulise ploki */
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
     background-color: rgba(126, 49, 5, 0.8); /* Sinu lehe teemaga sobiv värv */
     color: #ffffff;
     text-decoration: none; /* Eemaldab lingi allakriipsutuse */
