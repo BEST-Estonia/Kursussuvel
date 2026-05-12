@@ -229,6 +229,10 @@ header.scrolled .navbar {
     padding: 30px 20px;
 }
 
+.l13 {
+    padding-top: 10px;
+}
+
 .l1 h1, .l2 h1, .l3 h1, .l12 h1, .l13 h1 {
     text-align: center;
     margin-bottom: 5px;
