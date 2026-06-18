@@ -190,6 +190,10 @@ header.scrolled .navbar {
     border-radius: 15px;
 }
 
+.l1 {
+    padding: 20px;
+}
+
 /* ALLALAADIMISE NUPP */
 .download-btn {
     display: inline-block; /* Teeb tekstilingist nupu kujulise ploki */
