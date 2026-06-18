@@ -200,6 +200,7 @@ header.scrolled .navbar {
     background-color: rgba(126, 49, 5, 0.8); /* Sinu lehe teemaga sobiv värv */
     color: #ffffff;
     text-decoration: none; /* Eemaldab lingi allakriipsutuse */
+    margin-top: 20px;
     padding: 12px 25px; /* Tekitab teksti ümber ruumi (üleval/all 12px, külgedel 25px) */
     font-size: 16px;
     font-family: Arial, sans-serif !important; /* Võid muuta ka 'Shadows Into Light', cursive peale */
