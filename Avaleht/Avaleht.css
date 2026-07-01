@@ -237,7 +237,7 @@ header.scrolled .navbar {
   width: fit-content; /* Slaidi laius */
   margin: 0 15px; /* Vahe slaidide vahel */
   opacity: 0.8; /* Teeme slaidid veidi läbipaistvaks */
-  transition: opacity 0.3s ease;
+  transition: opacity 0.5s ease;
   padding: 0px 50px;
 }
 
@@ -256,7 +256,7 @@ header.scrolled .navbar {
 @keyframes slideLeftToRight {
   0% {
     /* Alustab poole pealt (nihutatud vasakule, näidates teist kloonitud komplekti) */
-    transform: translateX(-45%);
+    transform: translateX(-55%);
   }
   100% {
     /* Lõpetab alguses (näitab esimest komplekti), misjärel hüppab märkamatult tagasi 0% peale */
