@@ -256,7 +256,7 @@ header.scrolled .navbar {
 @keyframes slideLeftToRight {
   0% {
     /* Alustab poole pealt (nihutatud vasakule, näidates teist kloonitud komplekti) */
-    transform: translateX(-25%);
+    transform: translateX(-15%);
   }
   100% {
     /* Lõpetab alguses (näitab esimest komplekti), misjärel hüppab märkamatult tagasi 0% peale */
